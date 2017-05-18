@@ -1,4 +1,4 @@
-import pymsql
+import pymysql
 import dbconfig
 connection = pymsql.connect(host='localhost',
 			    user=dbconfig.db_user,
